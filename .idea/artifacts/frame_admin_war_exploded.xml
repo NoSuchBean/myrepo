@@ -72,6 +72,9 @@
           <element id="archive" name="frame-app-1.0.jar">
             <element id="module-output" name="frame-app" />
           </element>
+          <element id="archive" name="frame-solr-1.0.jar">
+            <element id="module-output" name="frame-solr" />
+          </element>
           <element id="archive" name="frame-generator-1.0.jar">
             <element id="module-output" name="frame-generator" />
           </element>
@@ -80,9 +83,9 @@
           </element>
           <element id="library" level="project" name="Maven: com.github.axet:kaptcha:0.0.9" />
           <element id="library" level="project" name="Maven: com.jhlabs:filters:2.0.235" />
-          <element id="library" level="project" name="Maven: com.qiniu:qiniu-java-sdk:7.2.18" />
-          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.11.0" />
-          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.14.0" />
+          <element id="library" level="project" name="Maven: com.qiniu:qiniu-java-sdk:7.2.25" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.14.2" />
+          <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.17.2" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
           <element id="library" level="project" name="Maven: com.aliyun.oss:aliyun-sdk-oss:2.5.0" />
           <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.4.1" />

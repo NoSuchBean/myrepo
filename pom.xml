@@ -20,7 +20,8 @@
         <module>frame-casServer</module> <!--casServer-->
         <module>frame-redis</module> <!--缓存模块-->
         <module>frame-app</module> <!--缓存模块-->
-        <module>frame-solr</module> <!--solr全文搜索 后续会加入项目中使用-->
+        <module>frame-solr</module><!--solr全文搜索 后续会加入项目中使用-->
+        <module>frame-rabbitmq</module> <!--消息队列 rabbitMQ-->
     </modules>
     <properties>
         <spring.version>4.3.7.RELEASE</spring.version>
@@ -420,6 +421,13 @@
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.6.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>

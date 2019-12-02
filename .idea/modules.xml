@@ -9,7 +9,6 @@
       <module fileurl="file://$PROJECT_DIR$/frame-common/frame-common.iml" filepath="$PROJECT_DIR$/frame-common/frame-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-generator/frame-generator.iml" filepath="$PROJECT_DIR$/frame-generator/frame-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-quartz/frame-quartz.iml" filepath="$PROJECT_DIR$/frame-quartz/frame-quartz.iml" />
-      <module fileurl="file://$PROJECT_DIR$/frame-rabbitmq/frame-rabbitmq.iml" filepath="$PROJECT_DIR$/frame-rabbitmq/frame-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-redis/frame-redis.iml" filepath="$PROJECT_DIR$/frame-redis/frame-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-service/frame-service.iml" filepath="$PROJECT_DIR$/frame-service/frame-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/frame-shiro/frame-shiro.iml" filepath="$PROJECT_DIR$/frame-shiro/frame-shiro.iml" />

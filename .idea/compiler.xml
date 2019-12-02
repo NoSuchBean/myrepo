@@ -6,18 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="frame-activiti" />
-        <module name="frame-admin" />
-        <module name="frame-app" />
-        <module name="frame-casServer" />
-        <module name="frame-common" />
         <module name="frame-generator" />
-        <module name="frame-quartz" />
-        <module name="frame-rabbitmq" />
+        <module name="frame-casServer" />
         <module name="frame-redis" />
         <module name="frame-service" />
-        <module name="frame-shiro" />
+        <module name="frame-activiti" />
+        <module name="frame-quartz" />
         <module name="frame-solr" />
+        <module name="frame-admin" />
+        <module name="frame-common" />
+        <module name="frame-shiro" />
+        <module name="frame-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,7 +27,6 @@
       <module name="frame-common" target="1.8" />
       <module name="frame-generator" target="1.8" />
       <module name="frame-quartz" target="1.8" />
-      <module name="frame-rabbitmq" target="1.8" />
       <module name="frame-redis" target="1.8" />
       <module name="frame-service" target="1.8" />
       <module name="frame-shiro" target="1.8" />

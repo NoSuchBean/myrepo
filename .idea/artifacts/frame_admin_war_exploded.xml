@@ -1,6 +1,13 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="frame-admin:war exploded">
     <output-path>$PROJECT_DIR$/frame-admin/target/frame-admin</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>frame-admin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
@@ -83,8 +90,8 @@
           </element>
           <element id="library" level="project" name="Maven: com.github.axet:kaptcha:0.0.9" />
           <element id="library" level="project" name="Maven: com.jhlabs:filters:2.0.235" />
-          <element id="library" level="project" name="Maven: com.qiniu:qiniu-java-sdk:7.2.25" />
-          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.14.2" />
+          <element id="library" level="project" name="Maven: com.qiniu:qiniu-java-sdk:7.2.27" />
+          <element id="library" level="project" name="Maven: com.squareup.okhttp3:okhttp:3.14.4" />
           <element id="library" level="project" name="Maven: com.squareup.okio:okio:1.17.2" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.5" />
           <element id="library" level="project" name="Maven: com.aliyun.oss:aliyun-sdk-oss:2.5.0" />

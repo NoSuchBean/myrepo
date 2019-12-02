@@ -61,6 +61,7 @@ public class LoginController extends BaseController{
         if(!captcha.equalsIgnoreCase(kaptcha)){
             return Result.error("验证码不正确,暂不需要开启验证码验证");
         }*/
+
         try{
             Subject subject = ShiroUtils.getSubject();
             UsernamePasswordToken token = new UsernamePasswordToken(username, password);
